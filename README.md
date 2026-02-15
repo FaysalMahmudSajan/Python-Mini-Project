@@ -449,7 +449,82 @@ How many symbols would you like?: 2
 password is: aB3$kL9@m
 ```
 # 17. Rock-Paper-Scissors
-# 18. send-auto-msg
+Rock:
+```
+   _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+```
+Paper:
+```
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+
+```
+Scissors
+```
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+
+```
+✂️📄🪨
+
+A classic Rock Paper Scissors game with ASCII art visuals!
+
+###  Files
+
+- `RockPaperScissors.py` - Original version
+- `rockpaperscisser(new).py` - Improved version with loop
+
+### 🎮 How to Play
+
+- **0** = Rock 🪨
+- **1** = Paper 📄
+- **2** = Scissors ✂️
+
+## 🚀 Quick Start
+
+```bash
+# Run either version
+python RockPaperScissors.py
+# or
+python rockpaperscisser(new).py
+
+```
+
+# 18 WhatsApp Birthday Bot 🤖
+
+An automated Python script that sends birthday wishes via WhatsApp using pyautogui!
+
+### 📁 File
+
+- `main.py` - Main automation script
+
+### 🎯 What It Does
+
+1. Opens Windows Search
+2. Types "whatsapp" and launches it
+3. Searches for a contact named "Homies"
+4. Finds and clicks on the contact
+5. Types a birthday message
+6. Sends the message
+
+### 🚀 Quick Start
+
+```bash
+python main.py
+```
 # 19. Tracker
 # 20. Treasure-Map
 # 21. Turtle
