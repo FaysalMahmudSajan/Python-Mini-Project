@@ -367,14 +367,91 @@ A simple web-based number guessing game built with Flask. Guess a number between
 | `/` | Homepage with game instructions |
 | `/<int:num>` | Make a guess (0-9) |
 
-# 13. Higher_Lower_Start
+
+# 13. Higher-lower-Start
 A fun guessing game where players compare follower counts of celebrities, brands, and social media accounts!
-# 14. Higher-lower-Start
-# 15. Love Calcular
-# 16. Mail Merge Project
-# 17. Password-Generantor
-# 18. Rock-Paper-Scissors
-# 19. send-auto-msg
-# 20. Tracker
-# 21. Treasure-Map
-# 22. Turtle
+
+##  Files
+
+- `Game.py` - Your personal implementation
+- `game.py` - Course/reference implementation
+- `Game_Data.py` - Follower count database (50+ entries)
+- `art.py` - ASCII art assets (logo and VS display)
+
+##  How to Play
+
+1. Run either `Game.py` or `game.py`
+2. Compare two accounts (A vs B)
+3. Guess which has MORE followers
+4. Type 'A' or 'B' to answer
+5. Correct = +1 point and continue
+6. Wrong = Game Over with final score
+
+### Sample Data
+```
+{
+    'name': 'Cristiano Ronaldo',
+    'follower_count': 215,  # millions
+    'description': 'Footballer',
+    'country': 'Portugal'
+}
+```
+# 14. Love Calcular 💕
+
+A fun Python program that calculates love compatibility between two names!
+
+### Files
+
+- `LoveCalcular.py` - Basic version
+- `LoveCalculator(fast).py` - Function-based version
+
+### How It Works
+
+The calculator counts specific letters in both names:
+
+- **TRUE Letters** (T,R,U,E) → First digit
+- **LOVE Letters** (L,O,V,E) → Second digit
+### Example:
+```
+Welcome to the Love Calculator!
+What is your name? 
+John
+What is their name? 
+Jane
+
+Result: 34%
+```
+# 15. Mail Merge Project
+A Python script that generates personalized letters for multiple recipients by replacing placeholders with actual names.
+# 16. Password-Generantor
+
+A simple Python script that generates random, secure passwords based on user preferences!
+
+### File
+
+- `PyPassword_Generator.py` - Main password generator script
+
+### How It Works
+
+The generator creates a random password using:
+- **Letters** (a-z, A-Z)
+- **Numbers** (0-9)
+- **Symbols** (! # $ % & ( ) * +)
+
+
+### Example
+```
+Welcome to the PyPassword Generator!
+How many letters would you like?: 4
+How many numbers would you like?: 2
+How many symbols would you like?: 2
+
+password is: aB3$kL9@m
+```
+# 17. Rock-Paper-Scissors
+# 18. send-auto-msg
+# 19. Tracker
+# 20. Treasure-Map
+# 21. Turtle
+# 22. Turtle-road-crossing
+# 23. Who's Paying
