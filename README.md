@@ -337,4 +337,35 @@ Test your knowledge of social media popularity! Players see two accounts and mus
 }
 ```
 
+# 12. High_low
 
+
+A simple web-based number guessing game built with Flask. Guess a number between 0 and 9 and get instant feedback!
+
+### Features 
+
+- **Web Interface**: Clean, browser-based gameplay
+- **Random Numbers**: Server generates random target each session
+- **Visual Feedback**: Different GIFs for each outcome
+- **URL-Based Guessing**: Guess by visiting `/your-number`
+- **Instant Response**: Immediate feedback on guesses
+
+### How It Works 
+
+1. Visit the homepage (`/`) to start
+2. Server generates a random number (0-9)
+3. Make guesses by visiting `/[your-guess]`
+4. Get visual feedback:
+   - **Correct**: Celebration GIF
+   - **Too High**: "Too high" GIF
+   - **Too Low**: "Too low" GIF
+
+### Routes 
+
+| Route | Description |
+|-------|-------------|
+| `/` | Homepage with game instructions |
+| `/<int:num>` | Make a guess (0-9) |
+
+# 13. Higher_Lower_Start
+A fun guessing game where players compare follower counts of celebrities, brands, and social media accounts!
