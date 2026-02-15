@@ -369,3 +369,12 @@ A simple web-based number guessing game built with Flask. Guess a number between
 
 # 13. Higher_Lower_Start
 A fun guessing game where players compare follower counts of celebrities, brands, and social media accounts!
+# 14. Higher-lower-Start
+# 15. Love Calcular
+# 16. Mail Merge Project
+# 17. Password-Generantor
+# 18. Rock-Paper-Scissors
+# 19. send-auto-msg
+# 20. Tracker
+# 21. Treasure-Map
+# 22. Turtle
