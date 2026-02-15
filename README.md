@@ -526,7 +526,56 @@ An automated Python script that sends birthday wishes via WhatsApp using pyautog
 python main.py
 ```
 # 19. Tracker
+ Phone Number Tracker 📱
+
+A Python script that tracks the location and service provider of a phone number and displays it on an interactive map!
+
+## 📁 File
+
+- `project1.py` - Main tracking script
+- `new.py` - Contains the phone number (external file)
+
+## 🎯 What It Does
+
+1. Parses a phone number using phonenumbers library
+2. Identifies the geographic location
+3. Determines the mobile carrier/service provider
+4. Fetches coordinates using OpenCage Geocoder
+5. Creates an interactive HTML map with Folium
+
+## 🚀 Quick Start
+
+```bash
+python project1.py
+```
+
 # 20. Treasure-Map
+
+# Treasure Island Game 🏝️
+
+A text-based adventure game where players make choices to find the hidden treasure!
+
+## 📁 Files
+
+- `Treasure_Map.py` - 3x3 grid treasure marking game
+- `Treasure.py` - Text adventure with ASCII art
+
+## 🎮 Treasure_Map.py
+
+### How to Play
+1. View the 3x3 grid
+2. Enter coordinates (e.g., "23" for row 2, column 3)
+3. Mark the spot with "X"
+
+
 # 21. Turtle
-# 22. Turtle-road-crossing
+Practiced Built in turtle library
 # 23. Who's Paying
+
+A simple random selector to decide who buys the meal!
+
+## 🎯 How It Works
+
+1. Enter names separated by commas
+2. Program randomly selects one person
+3. Announces who pays for the meal
